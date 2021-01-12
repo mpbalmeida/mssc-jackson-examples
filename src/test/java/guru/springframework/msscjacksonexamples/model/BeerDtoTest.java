@@ -22,7 +22,7 @@ class BeerDtoTest extends BaseTest {
 
     @Test
     void deserialize() throws Exception {
-        var json = "{\"id\":\"5edc332c-e905-4542-8367-592f05aa479f\",\"beerName\":\"Beer1\",\"beerStyle\":\"PALE_ALE\",\"upc\":123456789012,\"price\":12.99,\"createdDate\":\"2021-01-12T17:27:22.599419+01:00\",\"lastUpdatedDate\":\"2021-01-12T17:27:22.599968+01:00\"}\n";
+        var json = "{\"id\":\"6f05d5c9-264c-4a1b-ac2e-e3181c327ad4\",\"beerName\":\"Beer1\",\"beerStyle\":\"PALE_ALE\",\"upc\":123456789012,\"price\":\"12.99\",\"createdDate\":\"2021-01-12T17:45:13+0100\",\"lastUpdatedDate\":\"2021-01-12T17:45:13.8993+01:00\"}";
 
         var beerDto = objectMapper.readValue(json, BeerDto.class);
 
