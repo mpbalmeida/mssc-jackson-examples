@@ -1,4 +1,5 @@
-
+[![CircleCI](https://circleci.com/gh/mpbalmeida/mssc-brewery.svg?style=shield)](<https://app.circleci.com/pipelines/github/mpbalmeida/mssc-jackson-examples>)
+[![codecov](https://codecov.io/gh/mpbalmeida/mssc-jackson-examples/branch/master/graph/badge.svg?token=OOH4E2RSM5)](https://codecov.io/gh/mpbalmeida/mssc-jackson-examples)
 
 # Jackson Examples with Spring Boot
 
