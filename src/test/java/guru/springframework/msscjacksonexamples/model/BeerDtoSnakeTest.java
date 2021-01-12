@@ -24,7 +24,7 @@ class BeerDtoSnakeTest extends BaseTest {
 
     @Test
     void deserialize() throws Exception {
-        var json = "{\"id\":\"14004ba6-64f2-4645-943d-ad8a241f5a30\",\"beer_name\":\"Beer1\",\"beer_style\":\"PALE_ALE\",\"upc\":123456789012,\"price\":\"12.99\",\"created_date\":\"2021-01-12T17:46:26+0100\",\"last_updated_date\":\"2021-01-12T17:46:26.126051+01:00\"}\n";
+        var json = "{\"id\":\"864ab653-9e51-4729-918c-1a27430fb7ab\",\"beer_name\":\"Beer1\",\"beer_style\":\"PALE_ALE\",\"upc\":123456789012,\"price\":\"12.99\",\"created_date\":\"2021-01-12T17:53:46+0100\",\"last_updated_date\":\"2021-01-12T17:53:46.87818+01:00\",\"my_local_date\":\"20210112\"}";
 
         var beerDto = objectMapper.readValue(json, BeerDto.class);
 
